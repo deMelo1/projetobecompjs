@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/cadastro.css">
+    <script src="/js/login.js" defer></script>
+</head>
+<body>
+    <div id="caixalogo">
+        <img style="width: 100%"  src="/img/logogrifo.png">
+    </div>
+    
+    <div id="CaixaPrincipal">
+        <h1>Faca seu login no Grifo</h1>
+
+        <ul id = "senhaerrada"></ul>
+
+        <form id="login">
+
+            <div class="dados">
+                <span for="email">Email:</span>
+                <input type="text" name="email" id="email" placeholder="Degite seu email">
+            </div>
+
+            <div class="dados">
+                <span for="password">Senha:</span>
+                <input type="password" name="senha" id="senha" placeholder="Degite sua senha">
+            </div>
+
+            <div class="dados">
+                <span for="type">Nivel de acesso:</span>
+                <select name="tipo" id="tipo">
+                    <option value="Membro">Membro</option>
+                    <option value="Socio">Socio</option>
+                    <option value="Diretor">Diretor</option>
+                </select>
+            </div>
+
+            <div class="dados">
+                <input type="submit" id="botao_entrar" value="Entrar">
+            </div>
+            
+            <a href="cadastro.html">Cadastre-se</a>
+
+        </form>
+    </div>    
+</body>
+</html>

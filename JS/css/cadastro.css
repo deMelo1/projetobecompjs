@@ -1,0 +1,101 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: black;
+    border: none;
+}
+
+
+body{
+    background-color: black;
+    background-size: cover;
+}
+
+a {
+    font-size: .8rem;
+}
+
+a:hover{
+    color: red;
+}
+
+
+#caixalogo{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13vh;
+    text-align: center;
+}
+
+#CaixaPrincipal{
+    background-color: #8F0B0B;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top:0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input{
+    display: block;
+    width: 100%;
+    text-align: left ;
+}
+
+select{
+    display: block;
+    width: 100%;
+    text-align: center ;
+}
+
+label {
+    font-weight:bold ;
+    font-size: 1rem;
+}
+
+input,select{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+input:focus{
+    border-bottom: 2px solid blue;
+}
+
+input[type="submit"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 30px;
+    color: #FFF;
+    background-color:black;
+    cursor: pointer;  
+}
+input[type="submit"]:hover{
+    background-color:rgb(66, 66, 68);
+    transition: .5s;
+
+}
+
+a:hover{
+    color:rgb(66, 66, 68);
+    transition: .5s;
+}
+
